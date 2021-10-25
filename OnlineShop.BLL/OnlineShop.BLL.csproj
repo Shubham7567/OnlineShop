@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OnlineShop.DAL\OnlineShop.DAL.csproj" />
+    <ProjectReference Include="..\OnlineShop.Models\OnlineShop.Models.csproj" />
+    <ProjectReference Include="..\OnlineShop.Utility\OnlineShop.Utility.csproj" />
+  </ItemGroup>
+
+</Project>
